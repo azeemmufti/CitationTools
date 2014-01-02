@@ -1,0 +1,3 @@
+<div class="csl-bib-body">
+  <div class="csl-entry">D'Arcus, B., 2006. <i>Boundaries of Dissent: Protest and State Power in the Media Age</i>, New York: Routledge. Available at: website.com.</div>
+</div>

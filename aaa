@@ -1,0 +1,18 @@
+@Book{d'arcus_2006,
+author="D'Arcus, Bruce",
+title="Boundaries of Dissent: Protest and State Power in the Media Age",
+year="2006",
+publisher="Routledge",
+url="website.com"
+}
+
+
+RIS:
+AssertionError:
+"TY  - BOOK\nAU  - D?Arcus, Bruce\nPY  - 2006//\nTI  - Boundaries of Dissent: Protest and State Power in the Media Age\nPB  - Routledge\nUR  - website.com\nID  - d'arcus_2006\nER  - \n" !=
+u"TY  - BOOK\nAU  - D?Arcus, Bruce\nPY  - 2006//\nTI  - Boundaries of Dissent: Protest and State Power in the Media Age\nPB  - Routledge\nUR  - website.com\nID  - d'arcus_2006\nER  - "
+
+ENDNOTE:
+AssertionError:
+"%0 Book\n%T Boundaries of Dissent: Protest and State Power in the Media Age\n%A D?Arcus, Bruce\n%D 2006\n%I Routledge\n%F d'arcus_2006\n%U website.com\n\n" !=
+u"%0 Book\n%T Boundaries of Dissent: Protest and State Power in the Media Age\n%A D?Arcus, Bruce\n%D 2006\n%I Routledge\n%F d'arcus_2006\n%U website.com"

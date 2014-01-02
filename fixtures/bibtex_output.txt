@@ -1,0 +1,7 @@
+@Book{d'arcus_2006,
+author="D'Arcus, Bruce",
+title="Boundaries of Dissent: Protest and State Power in the Media Age",
+year="2006",
+publisher="Routledge",
+url="website.com"
+}

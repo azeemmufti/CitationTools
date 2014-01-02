@@ -1,0 +1,7 @@
+%0 Book
+%T Boundaries of Dissent: Protest and State Power in the Media Age
+%A D?Arcus, Bruce
+%D 2006
+%I Routledge
+%F d'arcus_2006
+%U website.com
