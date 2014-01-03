@@ -4,7 +4,7 @@ from __future__ import (absolute_import, division, print_function,
 import subprocess
 import os
 
-os.chdir('/home/azeem/.virtualenvs/parsing/citeproc-py')
+os.chdir('/home/azeem/PycharmProjects/Citations')
 
 from citeproc.py2compat import *
 
@@ -78,8 +78,8 @@ sample = {
 #print (to_CSL(sample,os.path.join(CSL_PATH, 'harvard1.csl'), formatter.rst))
 #print (to_CSL(sample,os.path.join(CSL_PATH, 'harvard1.csl'), formatter.plain))
 
-result = to_final('xml2bib', sample)
-print(result)
+print(to_final('xml2bib', sample))
+
 
 
 
