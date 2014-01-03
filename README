@@ -1,0 +1,2 @@
+code for parsing/converting citations from JSON style objects into various CSL styles and Bibtex, Endnote, RIS, etc using
+citeproc-py and Bibutils
