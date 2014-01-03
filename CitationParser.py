@@ -20,7 +20,7 @@ from citeproc.source.json import CiteProcJSON
 
 __author__ = 'azeem'
 
-CSL_PATH = '/home/azeem/.virtualenvs/parsing/styles/'
+CSL_PATH = '/home/azeem/PycharmProjects/Citations/styles'
 
 def to_CSL(project_data, citation_style, formatter_Style):
     """Format an OSF project as a citation.
