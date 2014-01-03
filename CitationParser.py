@@ -4,15 +4,14 @@ from __future__ import (absolute_import, division, print_function,
 import subprocess
 import os
 
-os.chdir('/home/azeem/PycharmProjects/Citations')
-
-from citeproc.py2compat import *
-
 # We'll use json.loads for parsing the JSON data.
 import json
 
+import citeproc
 
-# Import the citeproc-py classes we'll use below.
+from citeproc.py2compat import *
+
+#Import the citeproc-py classes we'll use below.
 from citeproc import CitationStylesStyle, CitationStylesBibliography
 from citeproc import Citation, CitationItem
 from citeproc import formatter
@@ -20,7 +19,7 @@ from citeproc.source.json import CiteProcJSON
 
 __author__ = 'azeem'
 
-CSL_PATH = '/home/azeem/PycharmProjects/Citations/styles'
+CSL_PATH = 'styles'
 
 def to_CSL(project_data, citation_style, formatter_Style):
     """Format an OSF project as a citation.
@@ -73,13 +72,7 @@ sample = {
 "URL": "website.com"
 }
 
-
-
 #print (to_CSL(sample,os.path.join(CSL_PATH, 'harvard1.csl'), formatter.rst))
-#print (to_CSL(sample,os.path.join(CSL_PATH, 'harvard1.csl'), formatter.plain))
+print (to_CSL(sample,os.path.join(CSL_PATH, 'harvard1.csl'), formatter.plain))
 
 print(to_final('xml2bib', sample))
-
-
-
-
